@@ -12,12 +12,12 @@ namespace TrackerLibary
 		public TeamModel TeamCompeting { get; set; }
 
 		/// <summary>
-		/// Represents the score for this particular team
+		/// Represents the score for this particular team.
 		/// </summary>
 		public double Score { get; set; }
 
 		/// <summary>
-		/// Represents the matchup that this team came 
+		/// Represents the matchup that this team came.
 		/// from the winner
 		/// </summary>
 		public MatchupModel ParentMatchup { get; set; }
@@ -26,7 +26,7 @@ namespace TrackerLibary
 		/// Can document here
 		/// </summary>
 		/// <param name="initialScore">
-		/// And document here for the parameter
+		/// And document here for the parameter.
 		/// </param>
 		public MatchupEntryModel(double initialScore)
 		{
