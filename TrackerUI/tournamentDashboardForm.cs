@@ -16,5 +16,10 @@ namespace TrackerUI
 		{
 			InitializeComponent();
 		}
+
+		private void tournamentDashboardForm_Load(object sender, EventArgs e)
+		{
+
+		}
 	}
 }

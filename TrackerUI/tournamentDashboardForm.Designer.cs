@@ -117,6 +117,7 @@
 			this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
 			this.Name = "tournamentDashboardForm";
 			this.Text = "Tournament Dashboard";
+			this.Load += new System.EventHandler(this.tournamentDashboardForm_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
