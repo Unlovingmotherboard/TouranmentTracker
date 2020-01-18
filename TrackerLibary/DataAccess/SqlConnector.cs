@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using TrackerLibary.Models;
 
-namespace TrackerLibary
+namespace TrackerLibary.DataAccess
 {
 	public class SqlConnector : IDataConnection
 	{

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TrackerLibary
+namespace TrackerLibary.Models
 {
 	/// <summary>
 	/// Represents one match in the tournament.

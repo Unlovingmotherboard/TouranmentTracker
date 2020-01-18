@@ -116,8 +116,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TrackerLibary\TrackerLibary.csproj">
-      <Project>{5278c94c-5b03-4ccd-8b7f-cc8f5868733d}</Project>
+    <ProjectReference Include="..\TrackerLibary2\TrackerLibary.csproj">
+      <Project>{AAD5B959-8227-4B31-A638-5A8ABE67C5A8}</Project>
       <Name>TrackerLibary</Name>
     </ProjectReference>
   </ItemGroup>

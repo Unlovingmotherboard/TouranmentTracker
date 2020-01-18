@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using TrackerLibary.DataAccess;
 
 namespace TrackerLibary
 {
@@ -20,7 +21,7 @@ namespace TrackerLibary
 			if (textFiles)
 			{
 				// TODO - Create the Text Connection
-				TextConnection text = new TextConnection();
+				TextConnector text = new TextConnector();
 				Connections.Add(text);
 			}
 		}
