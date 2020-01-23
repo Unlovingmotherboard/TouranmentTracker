@@ -5,12 +5,6 @@ using System.Text;
 using Dapper;
 using TrackerLibary.Models;
 
-	//@PlaceNumber int,
-	//@PlaceName nvarchar(100),
-	//@PrizeAmount money,
-	//@PrizePercentage float,
-	//@id int = 0 output
-
 namespace TrackerLibary.DataAccess
 {
 	public class SqlConnector : IDataConnection
