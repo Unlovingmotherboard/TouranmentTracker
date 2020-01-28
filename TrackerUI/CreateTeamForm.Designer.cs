@@ -98,6 +98,7 @@
 			this.addTeamMemberButton.TabIndex = 20;
 			this.addTeamMemberButton.Text = "Add Member";
 			this.addTeamMemberButton.UseVisualStyleBackColor = true;
+			this.addTeamMemberButton.Click += new System.EventHandler(this.addTeamMemberButton_Click);
 			// 
 			// selectTeamMemberDropDown
 			// 
