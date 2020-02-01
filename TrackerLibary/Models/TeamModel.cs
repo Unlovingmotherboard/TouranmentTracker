@@ -9,14 +9,16 @@ namespace TrackerLibary.Models
 	/// </summary>
 	public class TeamModel
 	{
+		public int Id { get; set; }
+		/// <summary>
+		/// The name of the team
+		/// </summary>
+		public string TeamName { get; set; }
 		/// <summary>
 		/// Represents a list of persons in the team
 		/// </summary>
 		public List<PersonModel> TeamMembers { get; set; } = new List<PersonModel>();
 
-		/// <summary>
-		/// The name of the team
-		/// </summary>
-		public string TeamName { get; set; }
+		
 	}
 }
